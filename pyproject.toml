@@ -1,0 +1,43 @@
+[project]
+name = "ai-code-reviewer"
+version = "0.1.0"
+description = "AI-powered code reviewer that analyzes GitHub Pull Requests with an LLM and publishes review comments automatically."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Mustapha Oumeziane" },
+    { name = "Personne B" },
+]
+
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+    "google-generativeai>=0.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "pytest-mock>=3.14.0",
+    "ruff>=0.6.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
