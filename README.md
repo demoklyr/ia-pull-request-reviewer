@@ -1,6 +1,6 @@
 # 🤖 AI Code Reviewer (AI-powered automation pipeline)
 
-**An AI agent that automatically reviews GitHub Pull Requests and posts structured feedback.**
+**AI-powered GitHub Pull Request reviewer built with FastAPI, Gemini, GitHub Webhooks, Pydantic, Docker and GitHub Actions.**
 
 [![CI](https://github.com/demoklyr/ia-pull-request-reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/demoklyr/ia-pull-request-reviewer/actions/workflows/ci.yml)
 
