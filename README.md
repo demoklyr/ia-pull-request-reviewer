@@ -93,8 +93,8 @@ GitHub Pull Request
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/ai-code-reviewer.git
-cd ai-code-reviewer
+git clone https://github.com/demoklyr/ia-pull-request-reviewer.git
+cd ia-pull-request-reviewer
 python3 -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
