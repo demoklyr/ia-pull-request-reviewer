@@ -1,6 +1,6 @@
-# 🤖 AI Code Reviewer
+# 🤖 AI Code Reviewer (AI-powered automation pipeline)
 
-**An AI agent that automatically reviews GitHub Pull Requests and posts structured feedback — bugs, security issues, performance problems, bad practices, and missing tests — as a comment, in seconds.**
+**An AI agent that automatically reviews GitHub Pull Requests and posts structured feedback.**
 
 
 
