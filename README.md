@@ -87,8 +87,23 @@ GitHub Pull Request
 6. The validated result is rendered as Markdown (`ai/formatting.py`).
 7. `GitHubClient.create_review()` publishes it as a comment on the PR.
 
+## Example
 
-![AI Code Review example](docs/screenshot.png)
+### 1. We create a Pull Request with vulnerable code
+
+![Vulnerable code](docs/screenshots/vulnerable-code.png)
+
+### 2. AI detects the SQL injection
+
+![AI review detecting SQL injection](docs/screenshots/review-sql-injection.png)
+
+### 3. Push the fixed code
+
+![Fixed code](docs/screenshots/fixed-code.png)
+
+### 4. AI reviews the updated Pull Request
+
+![AI review after the fix](docs/screenshots/review-fixed-code.png)
 
 ## Installation
 
