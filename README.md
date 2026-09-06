@@ -2,6 +2,7 @@
 
 **An AI agent that automatically reviews GitHub Pull Requests and posts structured feedback.**
 
+[![CI](https://github.com/demoklyr/ia-pull-request-reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/demoklyr/ia-pull-request-reviewer/actions/workflows/ci.yml)
 
 
 ---
