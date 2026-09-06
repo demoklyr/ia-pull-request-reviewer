@@ -5,8 +5,8 @@ description = "AI-powered code reviewer that analyzes GitHub Pull Requests with 
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
-    { name = "Personne A" },
-    { name = "Personne B" },
+    { name = "Mustapha Oumeziane" },
+    { name = "Ahmed Yasri" },
 ]
 
 dependencies = [
